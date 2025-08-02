@@ -86,11 +86,11 @@
 
         snipe-layers {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mkp MCLK  &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &mkp LCLK  &mkp RCLK  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &mkp LCLK  &mkp RCLK
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
         };
@@ -108,12 +108,12 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans                &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp LS(LG(NUMBER_4))  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans                &trans    &trans  &trans
+                                &trans                &trans    &trans
             >;
         };
     };
