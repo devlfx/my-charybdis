@@ -53,11 +53,11 @@
 
         F_layers {
             bindings = <
-&kp F1  &kp F2     &kp F3            &kp F4        &kp F5    &kp F6        &kp F7     &kp F8     &kp F9    &kp F10       &kp F11    &kp F12
-&trans  &none      &none             &none         &none     &trans        &mkp MB3   &none      &none     &kp UP_ARROW  &kp MINUS  &kp EQUAL
-&trans  &none      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &trans        &mkp LCLK  &mkp RCLK  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
-&trans  &kp GRAVE  &trans            &trans        &trans    &none         &none      &none      &trans    &trans        &none      &trans
-                                     &trans        &trans    &To0_macro    &trans     &trans
+&kp F1  &kp F2     &kp F3            &kp F4        &kp F5    &kp F6        &kp F7  &kp F8     &kp F9          &kp F10    &kp F11    &kp F12
+&trans  &none      &none             &none         &none     &trans        &trans  &trans     &kp UP_ARROW    &trans     &kp MINUS  &kp EQUAL
+&trans  &none      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &trans        &trans  &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans     &trans
+&trans  &kp GRAVE  &trans            &trans        &trans    &none         &none   &mkp LCLK  &mkp RCLK       &mkp MCLK  &none      &trans
+                                     &trans        &trans    &To0_macro    &trans  &trans
                                                    &trans    &trans        &trans
             >;
         };
@@ -97,10 +97,10 @@
 
         layer_5 {
             bindings = <
-&trans  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION   &trans  &kp DELETE
-&trans  &kp NUMBER_0  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3       &trans             &trans  &kp MINUS             &kp EQUAL              &kp GREATER_THAN  &trans  &trans
-&trans  &trans        &kp NUMBER_4      &kp N5        &kp NUMBER_6       &trans             &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN     &trans  &trans
-&trans  &trans        &kp N7            &kp N8        &kp N9             &trans             &trans  &kp SEMICOLON         &trans                 &trans            &trans  &trans
+&trans  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION   &trans         &kp DELETE
+&trans  &kp NUMBER_0  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3       &trans             &trans  &kp MINUS             &kp EQUAL              &kp GREATER_THAN  &trans         &trans
+&trans  &trans        &kp NUMBER_4      &kp N5        &kp NUMBER_6       &trans             &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN     &kp SEMICOLON  &trans
+&trans  &trans        &kp N7            &kp N8        &kp N9             &trans             &trans  &kp GRAVE             &kp SINGLE_QUOTE       &trans            &trans         &trans
                                         &trans        &trans             &trans             &trans  &trans
                                                       &trans             &trans             &trans
             >;
