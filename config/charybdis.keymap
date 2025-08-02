@@ -57,7 +57,7 @@
 &trans  &none      &none             &none         &none     &trans        &mkp MB3   &none      &none     &kp UP_ARROW  &kp MINUS  &kp EQUAL
 &trans  &none      &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI  &trans        &mkp LCLK  &mkp RCLK  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
 &trans  &kp GRAVE  &trans            &trans        &trans    &none         &none      &none      &trans    &trans        &none      &trans
-                                     &trans        &trans    &To0_macro    &mkp LCLK  &mkp RCLK
+                                     &trans        &trans    &To0_macro    &trans     &trans
                                                    &trans    &trans        &trans
             >;
         };
